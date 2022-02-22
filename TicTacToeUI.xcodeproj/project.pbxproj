@@ -11,6 +11,7 @@
 		07779C4F27C3CDA30071A368 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07779C4E27C3CDA30071A368 /* ContentView.swift */; };
 		07779C5127C3CDAA0071A368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07779C5027C3CDAA0071A368 /* Assets.xcassets */; };
 		07779C5427C3CDAA0071A368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07779C5327C3CDAA0071A368 /* Preview Assets.xcassets */; };
+		07D5BED427C55294000248BE /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5BED327C55294000248BE /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		07779C4E27C3CDA30071A368 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07779C5027C3CDAA0071A368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07779C5327C3CDAA0071A368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07D5BED327C55294000248BE /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				07779C4C27C3CDA30071A368 /* TicTacToeUIApp.swift */,
 				07779C4E27C3CDA30071A368 /* ContentView.swift */,
+				07D5BED327C55294000248BE /* Alerts.swift */,
 				07779C5027C3CDAA0071A368 /* Assets.xcassets */,
 				07779C5227C3CDAA0071A368 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07779C4F27C3CDA30071A368 /* ContentView.swift in Sources */,
+				07D5BED427C55294000248BE /* Alerts.swift in Sources */,
 				07779C4D27C3CDA30071A368 /* TicTacToeUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToeUI/Preview Content\"";
+				DEVELOPMENT_TEAM = MDSWVPV2AP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToeUI/Preview Content\"";
+				DEVELOPMENT_TEAM = MDSWVPV2AP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
