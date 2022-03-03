@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct GameView: View {
     @StateObject private var viewModel = GameViewModel()
     
@@ -58,8 +56,6 @@ struct ContentView_Previews: PreviewProvider {
         GameView()
     }
 }
-
-
 
 struct GameSquareView: View {
     var proxy: GeometryProxy

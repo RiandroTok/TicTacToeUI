@@ -11,6 +11,7 @@
 		07779C4F27C3CDA30071A368 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07779C4E27C3CDA30071A368 /* GameView.swift */; };
 		07779C5127C3CDAA0071A368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07779C5027C3CDAA0071A368 /* Assets.xcassets */; };
 		07779C5427C3CDAA0071A368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07779C5327C3CDAA0071A368 /* Preview Assets.xcassets */; };
+		0797C3C327C66BF100FAF7FA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797C3C227C66BF100FAF7FA /* LoginView.swift */; };
 		07D5BED427C55294000248BE /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5BED327C55294000248BE /* Alerts.swift */; };
 		07D5BED627C56998000248BE /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5BED527C56998000248BE /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		07779C4E27C3CDA30071A368 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		07779C5027C3CDAA0071A368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07779C5327C3CDAA0071A368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0797C3C227C66BF100FAF7FA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		07D5BED327C55294000248BE /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		07D5BED527C56998000248BE /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,10 +57,11 @@
 		07779C4B27C3CDA30071A368 /* TicTacToeUI */ = {
 			isa = PBXGroup;
 			children = (
+				07D5BED327C55294000248BE /* Alerts.swift */,
 				07779C4C27C3CDA30071A368 /* TicTacToeUIApp.swift */,
 				07779C4E27C3CDA30071A368 /* GameView.swift */,
 				07D5BED527C56998000248BE /* GameViewModel.swift */,
-				07D5BED327C55294000248BE /* Alerts.swift */,
+				0797C3C227C66BF100FAF7FA /* LoginView.swift */,
 				07779C5027C3CDAA0071A368 /* Assets.xcassets */,
 				07779C5227C3CDAA0071A368 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				07D5BED627C56998000248BE /* GameViewModel.swift in Sources */,
 				07779C4F27C3CDA30071A368 /* GameView.swift in Sources */,
 				07D5BED427C55294000248BE /* Alerts.swift in Sources */,
+				0797C3C327C66BF100FAF7FA /* LoginView.swift in Sources */,
 				07779C4D27C3CDA30071A368 /* TicTacToeUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
