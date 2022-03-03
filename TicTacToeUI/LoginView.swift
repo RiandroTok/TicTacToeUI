@@ -35,7 +35,7 @@ struct TextView: View {
             .font(.largeTitle)
             .fontWeight(.semibold)
             .padding(.bottom, 40)
-            .offset(y: -200)
+            .offset(y: -100)
         
     }
 }
